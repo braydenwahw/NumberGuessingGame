@@ -47,7 +47,9 @@ while True:
                         playing = False
                     elif playagain == "no":
                         print("Thanks for playing, goodbye!")
+                        time.sleep(3)
                         exit()
                 else:
                     print("Wrong! Try again!")
+
 
